@@ -13,9 +13,9 @@ let locationParams = new URLSearchParams(location.search)
 let mainProductID = locationParams.get('id')
 
 if (mainProductID === 'Nladkop21it') {
-    h2.insertAdjacentHTML('beforeend', `<h2>سلام ایران</h2>`)
+    h2.insertAdjacentHTML('beforeend', `<h2>این صفحه توسط مدیر پروژه در حال آپدیت است...</h2>`)
 } else if (mainProductID === 'Lfasdiontr52') {
-    h2.insertAdjacentHTML('beforeend', `<h2>خداحافظ ایران</h2>`)
+    h2.insertAdjacentHTML('beforeend', `<h2>این صفحه توسط مدیر پروژه در حال آپدیت است...</h2>`)
 } else if (mainProductID === '8fsfKlTofaB1') {
-    h2.insertAdjacentHTML('beforeend', `<h2>سلامی دوباره ایران</h2>`)
+    h2.insertAdjacentHTML('beforeend', `<h2>این صفحه توسط مدیر پروژه در حال آپدیت است...</h2>`)
 }
